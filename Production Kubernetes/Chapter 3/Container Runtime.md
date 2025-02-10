@@ -30,7 +30,6 @@ Beberapa runtime yang kompatibel dengan Kubernetes:
 - **gVisor**: Isolasi tambahan berbasis sandboxing.
 - **Kata Containers**: Menyediakan keamanan berbasis VM dalam kontainer.
 
-## Kesimpulan
 Kubernetes bergantung pada container runtime untuk menjalankan kontainer, memilih pendekatan modular dengan CRI agar tetap fleksibel dan inovatif. Pemilihan runtime bergantung pada kebutuhan spesifik platform yang digunakan.
 
 # Sejarah Container dan Open Container Initiative (OCI)
@@ -134,7 +133,6 @@ CRI adalah antarmuka standar yang memungkinkan Kubernetes berinteraksi dengan be
 
 Dengan adanya CRI, Kubernetes dapat mendukung berbagai runtime seperti **containerd**, **CRI-O**, dan lainnya tanpa perubahan besar pada kode kubelet.
 
-## Kesimpulan  
 OCI dan CRI adalah fondasi utama dalam ekosistem container modern:  
 - **OCI memastikan interoperabilitas image dan runtime container.**  
 - **CRI memungkinkan Kubernetes mendukung berbagai runtime tanpa modifikasi besar.**  
